@@ -1,0 +1,28 @@
+{
+  "hosting": [
+    {
+      "target": "ambasadoracademy-co-ke",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+        { "source": "/health", "destination": "/health.html" },
+      { "source": "**", "destination": "/index.html" }
+      ],
+      "headers": [
+        {
+          "source": "/health",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        }
+    ]
+  }
+  ]
+}

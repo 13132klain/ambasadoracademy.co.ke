@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "ambassador-academy-website"
+  },
+  "targets": {
+    "ambassador-academy-website": {
+      "hosting": {
+        "ambasadoracademy-co-ke": [
+          "ambasadoracademy-co-ke"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
